@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Carrier extends Ship {
-    private static final int size = 5;
+public class Destroyer extends Ship{
+    private static final int size = 3;
     private int hit = 0;
     private int[] location = new int[size*2];
 
@@ -32,5 +32,4 @@ public class Carrier extends Ship {
 
         return startLocation;
     }
-
 }

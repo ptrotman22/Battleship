@@ -1,5 +1,5 @@
 public abstract class Ship {
-    abstract int[] Location(int[] startLocation, String[][] grid);
+    public abstract int[] Location(int[] startLocation, String[][] grid);
 
-    abstract int Size();
+    public abstract int Size();
 }
