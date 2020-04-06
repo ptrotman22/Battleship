@@ -128,7 +128,7 @@ public class BattleshipDriver {
         String shipName = "";
         if (size == 5){
             shipName = "Carrier";
-            System.out.println(player +" place your BattleShips: "+ shipName);
+            System.out.println(player +" place your BattleShips: "+ shipName +" (" + size + ") ");
             System.out.println("Please choose first coordinate:");
             int input = new Scanner(System.in).nextInt();
             location[0] = input;
@@ -142,7 +142,7 @@ public class BattleshipDriver {
         }
         else if(size == 4){
             shipName = "Battleship";
-            System.out.println(player +" place your BattleShips: "+ shipName);
+            System.out.println(player +" place your BattleShips: "+ shipName +" (" + size + ") ");
             System.out.println("Please choose first coordinate:");
             int input = new Scanner(System.in).nextInt();
             location[0] = input;
@@ -156,7 +156,7 @@ public class BattleshipDriver {
         }
         else if(size == 3){
             shipName = "Destroyer";
-            System.out.println(player +" place your BattleShips: "+ shipName);
+            System.out.println(player +" place your BattleShips: "+ shipName +" (" + size + ") ");
             System.out.println("Please choose first coordinate:");
             int input = new Scanner(System.in).nextInt();
             location[0] = input;
@@ -170,7 +170,7 @@ public class BattleshipDriver {
         }
         else if(size == 2){
             shipName = "Patrol Boat";
-            System.out.println(player +" place your BattleShips: "+ shipName);
+            System.out.println(player +" place your BattleShips: "+ shipName +" (" + size + ") ");
             System.out.println("Please choose first coordinate:");
             int input = new Scanner(System.in).nextInt();
             location[0] = input;
